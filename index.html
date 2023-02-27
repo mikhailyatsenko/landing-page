@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="wrapper-outer section-header">
+      <div class="wrapper-inner wrapper-inner--wide">
+        <div class="main-navigation" id="header-main-navigation">
+          <a class="logo" href="#"></a>
+
+          <div class="main-navigation__inner-wrap">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-list__item"><a data-goto=".section-hero-image" class="nav-list__item-link" href="#">Home</a></li>
+                <li class="nav-list__item"><a data-goto=".section-features" class="nav-list__item-link" href="#">Abut us</a></li>
+                <li class="nav-list__item"><a data-goto=".section-blog" class="nav-list__item-link" href="#">Blog</a></li>
+                <li class="nav-list__item"><a data-goto=".section-quotes" class="nav-list__item-link" href="#">Testimonials</a></li>
+                <li class="nav-list__item"><a data-goto=".section-faq" class="nav-list__item-link" href="#">FAQ</a></li>
+                <li class="nav-list__item"><a data-goto=".section-get-started" class="nav-list__item-link" href="#">Get started</a></li>
+              </ul>
+            </nav>
+            <div class="social">
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#"
+                    ><svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.81972 12.0232C5.38191 12.0232 5.4563 11.8651 5.3053 11.4664L4.01782 7.41344L13.9283 1.78983" fill="#9399AB" />
+                      <path d="M5.81982 12.0232C6.15768 12.0232 6.30696 11.8754 6.49554 11.7L8.29744 10.0241L6.04979 8.72772" fill="#70788E" />
+                      <path
+                        d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891"
+                        fill="#B6BAC7"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#"
+                    ><svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.0328 1.84041C16.4253 2.11761 15.7726 2.30417 15.0877 2.38898C15.7868 1.95807 16.3239 1.27594 16.5767 0.46342C15.9222 0.862259 15.1973 1.15191 14.4257 1.308C13.8081 0.631966 12.9276 0.210602 11.9535 0.210602C10.0832 0.210602 8.56631 1.76886 8.56631 3.69017C8.56631 3.96313 8.59598 4.22867 8.65402 4.48334C5.83853 4.33759 3.3424 2.95159 1.67204 0.847419C1.38053 1.36154 1.2135 1.95887 1.2135 2.59648C1.2135 3.80359 1.81147 4.86853 2.72005 5.49303C2.16541 5.47448 1.64276 5.31812 1.18615 5.05709V5.10081C1.18615 6.7876 2.35476 8.19347 3.90258 8.51347C3.61882 8.59297 3.31957 8.63537 3.01181 8.63537C2.79357 8.63537 2.581 8.61417 2.37462 8.5731C2.80543 9.95591 4.05659 10.9619 5.53864 10.99C4.37931 11.9228 2.91868 12.4793 1.33113 12.4793C1.05768 12.4793 0.788618 12.4634 0.523682 12.4308C2.02249 13.4183 3.80327 13.9944 5.71599 13.9944C11.946 13.9944 15.3531 8.69155 15.3531 4.09365C15.3531 3.94259 15.3498 3.79286 15.3433 3.64313C16.0053 3.15286 16.5798 2.53937 17.0338 1.84107"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#"
+                    ><svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M17.0001 2.10651H16.3472C16.1047 2.10651 15.7619 2.45072 15.7619 2.67109V10.6583C15.7619 10.8789 16.1047 11.1796 16.3472 11.1796H17.0001V13.0755H11.084V11.1796H12.3223V2.78361H12.2616L9.36999 13.0755H7.13129L4.277 2.78361H4.20477V11.1796H5.44303V13.0755H0.48999V11.1796H1.12422C1.38542 11.1796 1.72825 10.8789 1.72825 10.6583V2.67109C1.72825 2.45072 1.38542 2.10651 1.12422 2.10651H0.48999V0.210635H6.68355L8.717 7.65872H8.77295L10.8252 0.210635H17.0001V2.10651Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="btn-wrapper"><a href="#" class="btn btn--light-blue">Get started</a></div>
+          </div>
+          <button class="btn btn-burger">
+            <span class="btn-burger__line"></span>
+            <span class="btn-burger__line"></span>
+            <span class="btn-burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="wrapper-outer section-hero-image section-hero-image-swiper swiper">
+      <ul class="slider-hero-image section-hero-image swiper-wrapper">
+        <li class="slider-hero-image__item swiper-slide" style="background-image: url(img/hero-background.png)">
+          <div class="wrapper-inner slider-hero-image__item-content">
+            <h5>PLAN YOUR LIFE</h5>
+            <h2>Increase your <span>productivity</span></h2>
+            <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</div>
+            <div class="btn-icon">
+              <i class="icon-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="slider-hero-image__item swiper-slide" style="background-image: url(img/hero-background.png)">
+          <div class="wrapper-inner slider-hero-image__item-content">
+            <h5>PLAN YOUR LIFE</h5>
+            <h2>Increase your <span>productivity</span></h2>
+            <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</div>
+            <div class="btn-icon">
+              <i class="icon-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="slider-hero-image__item swiper-slide" style="background-image: url(img/hero-background.png)">
+          <div class="wrapper-inner slider-hero-image__item-content">
+            <h5>PLAN YOUR LIFE</h5>
+            <h2>Increase your <span>productivity</span></h2>
+            <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</div>
+            <div class="btn-icon">
+              <i class="icon-play"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="dots swiper-pagination"></div>
+    </section>
+
+    <section class="wrapper-outer section-customers">
+      <div class="wrapper-inner">
+        <a href="#" class="customers-item"><img src="img/bitbucket_customers.svg" alt="" /></a>
+        <a href="#" class="customers-item"><img src="img/apple-watch_customers.svg" alt="" /></a>
+        <a href="#" class="customers-item"><img src="img/facebook_customers.svg" alt="" /></a>
+        <a href="#" class="customers-item"><img src="img/atlassian_customers.svg" alt="" /></a>
+        <a href="#" class="customers-item"><img src="img/audi_customers.svg" alt="" /></a>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-plan-and-manage">
+      <div class="wrapper-inner">
+        <div class="content">
+          <h5>DESKTOP AND MOBILE APP</h5>
+          <h3><span>Plan</span> and <span>manage</span></h3>
+          <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</div>
+          <div class="btns-group">
+            <a href="#" class="btn btn--saturated-blue"
+              >View video
+              <svg width="7" height="8" viewBox="0 0 7 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 2.73354C6.66667 3.11844 6.66667 4.08069 6 4.46559L1.5 7.06367C0.833333 7.44857 0 6.96744 0 6.19764V1.00149C0 0.231691 0.833333 -0.249434 1.5 0.135467L6 2.73354Z" fill="white" />
+              </svg>
+            </a>
+            <a href="#" class="btn btn--no-bg">Get started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-features">
+      <div class="wrapper-inner text-center">
+        <h5>ABOUT US</h5>
+        <h4>Read about our app</h4>
+        <ul class="features-items">
+          <li class="features-item">
+            <div class="features-item__icon"><img src="/img/1_features.svg" alt="" /></div>
+            <div class="features-item__title">Overview</div>
+            <div class="features-item__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</div>
+          </li>
+          <li class="features-line"></li>
+          <li class="features-item">
+            <div class="features-item__icon"><img src="/img/2_features.svg" alt="" /></div>
+            <div class="features-item__title">Files</div>
+            <div class="features-item__text">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</div>
+          </li>
+          <li class="features-line"></li>
+          <li class="features-item">
+            <div class="features-item__icon"><img src="/img/3_features.svg" alt="" /></div>
+            <div class="features-item__title">Meeting chats</div>
+            <div class="features-item__text">Vim ne tacimates neglegentur. Erat diceret omittam at est.</div>
+          </li>
+          <li class="features-line"></li>
+          <li class="features-item">
+            <div class="features-item__icon"><img src="/img/4_features.svg" alt="" /></div>
+            <div class="features-item__title">Save events</div>
+            <div class="features-item__text">Nisl idque mel ea, nominati voluptatum.</div>
+          </li>
+        </ul>
+        <div class="features-buttons">
+          <a href="" class="btn btn--red">Read more</a>
+          <div class="features-buttons__or">OR</div>
+          <a href="" class="btn btn--light-blue">Get started</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-stats">
+      <div class="section-stats__left">
+        <div class="section-stats__icon"><img src="img/icon-stats-left.svg" alt="" /></div>
+        <div class="section-stats__number"><h2>89%</h2></div>
+        <div class="section-stats__text">
+          Customers who have<br />
+          increased their productivity
+        </div>
+      </div>
+      <div class="section-stats__right">
+        <div class="section-stats__icon"><img src="img/icon-stats-right.svg" alt="" /></div>
+        <div class="section-stats__number"><h2>3123</h2></div>
+        <div class="section-stats__text">
+          Users who have used our<br />
+          application
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-blog">
+      <div class="wrapper-inner">
+        <div class="slider-wrapper slider-wrapper-swiper">
+          <ul class="slider-blog swiper-wrapper">
+            <li class="slider-blog__item swiper-slide">
+              <div class="slider-blog__item-images">
+                <a href="/img/image-blog-1.png" data-fslightbox="slide-1" class="image-link image-link--big loupe">
+                  <img src="/img/image-blog-1.png" alt="" />
+                  <span class="loupe"></span>
+                </a>
+                <a href="/img/image-blog-2.png" data-fslightbox="slide-1" class="image-link image-link--sm-1 loupe">
+                  <img src="/img/image-blog-2.png" alt="" />
+                  <span class="loupe"></span>
+                </a>
+                <a href="/img/image-blog-3.png" data-fslightbox="slide-1" class="image-link image-link--sm-2 loupe">
+                  <img src="/img/image-blog-3.png" alt="" />
+                  <span class="loupe"></span>
+                </a>
+              </div>
+              <div class="slider-blog__item-content">
+                <h3>How to start planning</h3>
+                <div class="text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...</div>
+                <div class="blog-btns">
+                  <a href="" class="btn btn--light-blue">Read now</a>
+                  <a href="" class="btn btn--blank">Add to your bookmarks</a>
+                </div>
+              </div>
+            </li>
+            <li class="slider-blog__item swiper-slide">
+              <div class="slider-blog__item-images">
+                <a href="/img/image-blog-1.png" data-fslightbox="slide-2" class="image-link image-link--big loupe">
+                  <img src="/img/image-blog-1.png" alt="" />
+                  <span class="loupe"></span>
+                </a>
+                <a href="/img/image-blog-2.png" data-fslightbox="slide-2" class="image-link image-link--sm-1 loupe">
+                  <img src="/img/image-blog-2.png" alt="" />
+                  <span class="loupe"></span>
+                </a>
+                <a href="/img/image-blog-3.png" data-fslightbox="slide-2" class="image-link image-link--sm-2 loupe">
+                  <img src="/img/image-blog-3.png" alt="" />
+                  <span class="loupe"></span>
+                </a>
+              </div>
+              <div class="slider-blog__item-content">
+                <h3>How to start planning</h3>
+                <div class="text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...</div>
+                <div class="blog-btns">
+                  <a href="" class="btn btn--light-blue">Read now</a>
+                  <a href="" class="btn btn--blank">Add to your bookmarks</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="blog-arrow blog-arrow--left"></div>
+        <div class="blog-arrow blog-arrow--right"></div>
+        <div class="dots swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-quotes">
+      <div class="wrapper-inner">
+        <div class="section-quotes__left">
+          <h5>TESTIMONIALS</h5>
+          <h3>Customers's quotes</h3>
+          <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.</div>
+        </div>
+        <div class="section-quotes__right">
+          <div class="quotes-swiper-container">
+            <ul class="slider-quotes swiper-wrapper">
+              <li class="slider-quotes__item swiper-slide">
+                <div class="slider-quotes__item--text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</div>
+                <div class="slider-quotes__item--photo">
+                  <img src="img/quotes-img-1.jpg" alt="" />
+                </div>
+              </li>
+              <li class="slider-quotes__item swiper-slide">
+                <div class="slider-quotes__item--text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</div>
+                <div class="slider-quotes__item--photo">
+                  <img src="img/quotes-img-1.jpg" alt="" />
+                </div>
+              </li>
+              <li class="slider-quotes__item swiper-slide">
+                <div class="slider-quotes__item--text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</div>
+                <div class="slider-quotes__item--photo">
+                  <img src="img/quotes-img-1.jpg" alt="" />
+                </div>
+              </li>
+              <li class="slider-quotes__item swiper-slide">
+                <div class="slider-quotes__item--text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</div>
+                <div class="slider-quotes__item--photo">
+                  <img src="img/quotes-img-1.jpg" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="dots swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-faq">
+      <div class="wrapper-inner">
+        <h5 class="text-center">Customer help</h5>
+        <h4 class="text-center">Frequently asked questions</h4>
+        <ul class="faq-accordion">
+          <li class="faq-accordion__item faq-accordion__item--active">
+            <div class="faq-accordion__item-trigger">
+              <div class="faq-accordion__item-trigger-icon">
+                <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="arrow" d="M16 9L9 2L2 9" stroke="#495274" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div class="faq-accordion__item-trigger-text">Lorem repudiandae ne nec?</div>
+            </div>
+            <div class="faq-accordion__item-content">
+              <div class="faq-accordion__item-content-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</div>
+              <div class="faq-accordion__item-content-button">
+                <a href="" class="btn btn--gray">Read now</a>
+              </div>
+            </div>
+          </li>
+          <li class="faq-accordion__item">
+            <div class="faq-accordion__item-trigger">
+              <div class="faq-accordion__item-trigger-icon">
+                <svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="arrow" d="M16 9L9 2L2 9" stroke="#495274" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div class="faq-accordion__item-trigger-text">Lorem repudiandae ne nec?</div>
+            </div>
+            <div class="faq-accordion__item-content">
+              <div class="faq-accordion__item-content-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</div>
+              <div class="faq-accordion__item-content-button">
+                <a href="" class="btn btn--light-blue">Read now</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-get-started text-center">
+      <div class="wrapper-inner">
+        <h5>PLAN YOUR LIFE</h5>
+        <h2>Get <span>started</span> now</h2>
+        <div class="text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</div>
+        <div class="btns-group">
+          <a href="#" class="btn btn--bg-white">View pricing </a>
+          <a href="#" class="btn btn--no-bg">Read documentation</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper-outer section-newsletter">
+      <div class="wrapper-inner">
+        <div class="section-newsletter__left">
+          <div class="section-newsletter__left-title">Sign up for newsletter</div>
+          <div class="section-newsletter__left-text">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</div>
+        </div>
+        <div class="section-newsletter__right">
+          <form class="form-newsletter" action="">
+            <input class="input input--size-lg" placeholder="Email address" type="text" />
+            <button class="btn btn--saturated-blue btn--size-lg">Save me</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="wrapper-outer section-footer">
+      <div class="wrapper-inner wrapper-inner--wide">
+        <div class="main-navigation">
+          <a class="logo" href="#"></a>
+          <div class="main-navigation__inner-wrap">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-list__item"><a data-goto=".section-hero-image" class="nav-list__item-link nav-list__item-link--active" href="#">Home</a></li>
+                <li class="nav-list__item"><a data-goto=".section-blog" class="nav-list__item-link" href="#">Blog</a></li>
+                <li class="nav-list__item"><a data-goto=".section-features" class="nav-list__item-link" href="#">Features</a></li>
+                <li class="nav-list__item"><a data-goto=".section-quotes" class="nav-list__item-link" href="#">Pricing</a></li>
+                <li class="nav-list__item"><a data-goto=".section-faq" class="nav-list__item-link" href="#">Documentation</a></li>
+              </ul>
+            </nav>
+            <div class="social">
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#"
+                    ><svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.81972 12.0232C5.38191 12.0232 5.4563 11.8651 5.3053 11.4664L4.01782 7.41344L13.9283 1.78983" fill="#9399AB" />
+                      <path d="M5.81982 12.0232C6.15768 12.0232 6.30696 11.8754 6.49554 11.7L8.29744 10.0241L6.04979 8.72772" fill="#70788E" />
+                      <path
+                        d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891"
+                        fill="#B6BAC7"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#"
+                    ><svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M17.0328 1.84041C16.4253 2.11761 15.7726 2.30417 15.0877 2.38898C15.7868 1.95807 16.3239 1.27594 16.5767 0.46342C15.9222 0.862259 15.1973 1.15191 14.4257 1.308C13.8081 0.631966 12.9276 0.210602 11.9535 0.210602C10.0832 0.210602 8.56631 1.76886 8.56631 3.69017C8.56631 3.96313 8.59598 4.22867 8.65402 4.48334C5.83853 4.33759 3.3424 2.95159 1.67204 0.847419C1.38053 1.36154 1.2135 1.95887 1.2135 2.59648C1.2135 3.80359 1.81147 4.86853 2.72005 5.49303C2.16541 5.47448 1.64276 5.31812 1.18615 5.05709V5.10081C1.18615 6.7876 2.35476 8.19347 3.90258 8.51347C3.61882 8.59297 3.31957 8.63537 3.01181 8.63537C2.79357 8.63537 2.581 8.61417 2.37462 8.5731C2.80543 9.95591 4.05659 10.9619 5.53864 10.99C4.37931 11.9228 2.91868 12.4793 1.33113 12.4793C1.05768 12.4793 0.788618 12.4634 0.523682 12.4308C2.02249 13.4183 3.80327 13.9944 5.71599 13.9944C11.946 13.9944 15.3531 8.69155 15.3531 4.09365C15.3531 3.94259 15.3498 3.79286 15.3433 3.64313C16.0053 3.15286 16.5798 2.53937 17.0338 1.84107"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__item-link" href="#"
+                    ><svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M17.0001 2.10651H16.3472C16.1047 2.10651 15.7619 2.45072 15.7619 2.67109V10.6583C15.7619 10.8789 16.1047 11.1796 16.3472 11.1796H17.0001V13.0755H11.084V11.1796H12.3223V2.78361H12.2616L9.36999 13.0755H7.13129L4.277 2.78361H4.20477V11.1796H5.44303V13.0755H0.48999V11.1796H1.12422C1.38542 11.1796 1.72825 10.8789 1.72825 10.6583V2.67109C1.72825 2.45072 1.38542 2.10651 1.12422 2.10651H0.48999V0.210635H6.68355L8.717 7.65872H8.77295L10.8252 0.210635H17.0001V2.10651Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="btn-wrapper"><a href="#" class="btn btn--light-blue">Get started</a></div>
+          </div>
+        </div>
+        <div class="copiright">Copyright © 2018 by Random site</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/fslightbox.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
