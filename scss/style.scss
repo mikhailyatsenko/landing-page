@@ -538,7 +538,7 @@ h5 {
   .wrapper-inner {
     position: relative;
     &::after {
-      content: url(/img/plan-and-manage-image.png);
+      content: url(../img/plan-and-manage-image.png);
       position: absolute;
       left: 50%;
       top: 50%;
@@ -585,7 +585,7 @@ h5 {
 }
 
 .section-features {
-  background: url(/img/clouds_features.svg) no-repeat 50% 50%;
+  background: url(../img/clouds_features.svg) no-repeat 50% 50%;
   h4 {
     font-weight: $fw-medium;
     margin: 20px 0 92px 0;
@@ -728,7 +728,7 @@ h5 {
       width: 40px;
       height: 40px;
       cursor: pointer;
-      background: url(/img/arrow-right.svg) no-repeat 50% 50%;
+      background: url(../img/arrow-right.svg) no-repeat 50% 50%;
 
       &--left {
         right: calc(100% + 70px);
@@ -798,7 +798,7 @@ h5 {
             display: block;
             width: 65px;
             height: 65px;
-            background: #fff url(/img/icon-loupe.svg) no-repeat 50% 50%;
+            background: #fff url(../img/icon-loupe.svg) no-repeat 50% 50%;
             border-radius: 100%;
             opacity: 0;
             transform: translate(-50%, -50%);
@@ -1097,7 +1097,7 @@ h5 {
     left: 0;
     z-index: 5;
     content: "";
-    background: url(/img/clouds-get-started.svg) no-repeat 50% 50%;
+    background: url(../img/clouds-get-started.svg) no-repeat 50% 50%;
   }
   .wrapper-inner {
     position: relative;
